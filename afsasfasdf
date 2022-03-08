@@ -1,0 +1,33 @@
+package com.javaExoop;
+
+public class TvApp {
+
+	public static void main(String[] args) {
+		TV tv = new tv(7, 20, false); // 7번채널 볼륨20에 전원은 꺼짐
+		tv.status();
+		tv.power( true );
+		tv.volume( 120 );
+		tv.status();
+//		tv.volume( false );
+//		tv.status();
+//		tv.channel( 0 );
+//		tv.status();
+//		tv.channel( true );
+//		tv.channel( true );
+//		tv.channel( true );
+//		tv.status();
+//		tv.power( false );
+//		tv.status();
+		}
+}
+
+ 
+
+//tv.powerOnOff(); // Tv전원켜기 메소드호출 powerOnOff()
+//System.out.println(tv.power);// 출력 power
+//tv.channelUp(); // 메소드호출 channelUp()
+//
+//System.out.println(tv.channel); // 출력 channel
+//tv.channelDown(); // 메소드호출 channelDown()
+//System.out.println(tv.channel); // 출력 channel
+//} 
